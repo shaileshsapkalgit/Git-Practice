@@ -15,7 +15,7 @@ public class DemoController {
         return "Good morning "+student.getSurname();
     }
     @GetMapping("/hi")
-    public String helloWorld() {
+    public String Hi() {
         return "hi "+student.getSurname();
     }
 }
